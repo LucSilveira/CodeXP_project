@@ -1,0 +1,120 @@
+#main_interesse{
+    height: 120vh;
+}
+#main_interesse h1{
+    color: var(--roxo);
+    font-weight: 500;
+    margin-left: 4em;
+    margin-top: 2.8em;
+}
+#main_interesse hr{
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+.lista_interresse{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+.listaProdutos{
+    height: 70vh;
+    width: 70vw;
+}
+.lista_interresse div{
+    margin-top: 1em;
+    width: 50vw;
+    display: flex;
+}
+.listaPedidos{
+    font-size: 1.3em;
+    padding: 1em 0.5em 0em 0.5em;
+    color: var(--roxo);
+    text-decoration-line: underline;
+    padding: 1.3em;
+}
+
+.subMenuInteresse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.listaCadastros{
+    font-size: 1.3em;
+    padding: 1em 0.5em 0em 0.5em;
+    color: var(--roxo);
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 1.3em;
+}
+.menu_interesse{
+    width: 70vw;
+}
+.menu_interesse li{
+    list-style: none;
+    padding: 1em;
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+.nome_interesse{
+    margin-left: 2em;
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.descricao_interesse{
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 1em;
+}
+.descricao_botoes{
+    display: flex;
+    justify-content: space-around;
+}
+.botao_recusar {
+    border: solid 0.1em #CF0000;
+    color: #CF0000;
+    border-radius: 0.8em;
+    background-color: white;
+    font-weight: bold;
+    width: 8vw;
+    height: 5vh;
+}
+    .botao_aprovar {
+    border: solid 0.1em #29BF12;
+    color: #29BF12;
+    border-radius: 0.8em;
+    background-color: white;
+    font-weight: bold;
+    width: 8vw;
+    height: 5vh;
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 769px){
+
+    
+    .listaCadastros {
+        width: 69vw; 
+    }
+
+    .menu_interesse li{
+        display: flex;
+        justify-content: space-around;
+    }
+    .lista_interresse p{
+        font-size: 1em;
+        width: 6em;
+    }
+    .lista_interresse div {
+        width: 14vw;
+    }
+}
+
+@media screen and (max-width: 376px){
+
+    
+}

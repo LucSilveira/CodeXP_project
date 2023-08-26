@@ -1,0 +1,208 @@
+
+.conteudo{
+    height: 205vh;
+}
+
+.sobre_nos{
+    color: var(--roxo);
+    font-weight: 500;
+    margin-left: 4em;
+    margin-top: 2.8em;
+}
+.titulo_sobrenos hr{
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+    z-index: -1;
+}
+
+.techcycle_sobrenos{
+    color: grey;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 0.7em;
+    display: flex;
+    text-align: left;
+}
+.box1_sobrenos p{
+    width:20em;
+    margin-right: 3em;
+}
+.box1_sobrenos{
+    width: 85vw;
+    font-size: 1.7em;
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 4em;
+    margin-top: 1em;
+    display: flex;
+    text-align: justify;
+}
+.foto_pc_sobrenos{
+    width: 40vw; 
+   
+}
+.linha_sobrenos hr{
+   position: unset;
+    transform: rotate(170deg);
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 10em;
+}
+
+.box2_sobrenos{
+    width: 85vw;
+    font-size: 1.7em;
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 4em;
+    margin-top: 2em;
+    display: flex;
+}
+.funcoders_sobrenos{
+    margin-left: 12em;
+    margin-top: 2.2em;
+    margin-bottom: 0.3em;
+    font-size: 1.5em;
+    color: grey;
+}
+.box2_sobrenos p{
+    margin-left: 4em;
+    text-align: justify;
+    width:22em;
+
+}
+.foto_grupo_sobrenos{
+    width: 35vw;
+    height: 45vh;
+    margin-top: 6em;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 769px){
+
+    .conteudo{
+        height: 210vh;;
+    }
+    .sobre_nos{
+        margin-top: 2.8em;
+        margin-left: 2em;
+        margin-bottom: 1px;
+    }
+    .box1_sobrenos{
+        flex-direction: column;
+        padding: 1em;
+        margin: 0;
+        justify-content: center;
+    }
+    .box1_sobrenos p{
+        width: 83vw;
+        margin-left: 2.2em;
+    }
+    p{
+        font-size: 0.6em;
+        width: 15em;
+    }
+    .linha_sobrenos hr{
+        margin-top: 4em;
+    }
+    
+    .techcycle_sobrenos{
+        font-size: 1em;
+        margin-left: 1.3em;
+        margin-top: 0.5em;
+    }
+    .foto_pc_sobrenos{
+        width: 73vw;
+        margin-bottom: -3em;
+        margin-left: 1.7em; 
+    }
+    .linha_sobrenos{
+        margin-bottom: 0em;
+        margin-left: 3em;
+        width: 85vw;
+    }
+    .box2_sobrenos{
+        flex-direction: column;
+        padding: 1em;
+        margin: 0;
+        justify-content: center;
+    }
+    .foto_grupo_sobrenos{
+        width: 65vw;
+        margin-top: 2em;
+        margin-bottom: -4;
+        margin-left: 3.7em;
+    }
+    .box2_sobrenos p{
+        width: 83vw;
+        margin-left: 2em;
+        margin-bottom: -4em;
+    }
+    .funcoders_sobrenos{
+        margin-left: 1.2em;
+        margin-bottom: 1em;
+        margin-top: 2em;
+        font-size: 1em;
+        color: grey;
+    }
+
+}
+
+@media screen and (max-width: 376px ){
+
+    .conteudo{
+        height: 210vh;
+    }
+    .box1_sobrenos p{
+        font-size: 0.6em;
+        margin: 0;
+        }
+    .linha_sobrenos hr{
+            width: 80vw;
+            margin-right: 4em;
+            margin-bottom: 3em;
+    }
+   
+    .techcycle_sobrenos{
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+    .foto_pc_sobrenos{
+        width: 78vw;
+        margin: 0;
+    }
+    .linha_sobrenos{
+        margin-bottom: 0em;
+        margin-left: 2em;
+        width: 100vw;
+    }
+    .box2_sobrenos{
+        flex-direction: column;
+        padding: 1em;
+        margin: 0;
+        justify-content: center;
+    }
+    .foto_grupo_sobrenos{
+        width: 80vw;
+        height: 35vh;
+        margin-left: 0.5em;
+        margin-top: 1em;
+    }
+    .box2_sobrenos p{
+        width: 20em;
+        margin-left: 0;
+        margin-bottom: -4em;
+    }
+    .funcoders_sobrenos{
+        margin-left: 0;
+        margin-top: 2em;
+        font-size: 1em;
+        color: grey;
+    }
+
+}

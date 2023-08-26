@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*	MENU SUPERIOR	*/
+
+	nav li a{
+		text-decoration: none;
+		color: white;
+		font-size: 18px;
+	}
+
+	nav li a:hover{
+		font-size: 20px;
+	}
+
+	nav{
+		background-color: black;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+
+/* FIM NAV SUPERIOR */
+
+/* CORPO PRINCIPAL */
+	table{
+		margin: 0 auto;
+		font-size: 25px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+
+	table td, th{
+		line-height: 8vh;
+		padding: 3px 15px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		text-align: center;
+	}
+
+	table td{
+		font-weight: 200;
+	}
+	
+	table tr:hover{
+		background-color: rgb(228, 228, 225);
+	} 
+
+	table td:hover{
+		font-weight: 500;
+	}
+
+	table td, tfoot td{
+		font-weight: 400;
+	}
+
+	table th, tfoot{
+		background-color: rgb(228, 228, 225);
+	}
+
+	table td:nth-child(1){
+		font-weight: 200;
+		text-align: left;
+	}
+/* FIM DO CORPO PRINCIPAL */

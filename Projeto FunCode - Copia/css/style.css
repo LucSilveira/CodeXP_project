@@ -1,0 +1,1155 @@
+/* ESTILIZANDO O MAIN - Página Home */
+
+.home_main{
+    height:135vh;
+}
+
+.home_main h1{
+    color: var(--roxo);
+    font-weight: 500;
+    margin-left: 4em;
+    margin-top: 2.8em;   
+}
+
+.home_main hr {
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+
+.home_secao-filtro{
+    width: 40vw;
+    margin: 0 auto;
+}
+.home_secao-filtro h4{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home_filtros{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.home_filtros input, .home_filtros label{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home_filtros input{
+    margin-left: 1em;
+}
+
+
+.home_main section{
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto; 
+}
+
+.home_anuncio{
+    width: 15.2vw;
+    height: 45vh;
+    border: solid 1px #000;
+    margin-top: 4em;
+    border: 1px solid #707070;
+    border-radius: 1em;
+}
+
+.home_imagem-anuncio{
+    width:15vw;
+    height: 18vh;
+    border-bottom: 1px solid #707070;
+}
+
+.home_anuncio img{
+    width: 12vw;
+    height: 12vh;
+    margin: 0.8em 1.2em;
+}
+ .home_titulo-preco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_preco{
+    margin-right: 0.6em;
+    color: var(--roxo);
+}
+
+.home_anuncio h3{
+    font-weight: 500;
+    color: var(--roxo);
+    font-size: 1em;
+    margin-left: 0.6em;
+    margin-top: 1em;
+}
+
+.home_anuncio p{
+    margin-top: 0.8em;
+    margin-left: 0.6em;
+    text-align: left;
+    line-height: 1.2em;   
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home_botao-detalhe{
+    margin-top: 1.2em;
+    margin-left: 1em;
+}
+
+.home_anuncio a{
+    margin-top: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.4em;
+    border: 1px solid var(--roxo);
+    background: var(--roxo);
+    color: #fff;
+    border-radius: 0.8em;
+    margin-right: 4em;
+}
+
+
+.home_anuncio i{
+    font-size: 1.4em;
+    color: var(--roxo);
+}
+
+/* FINALIZANDO O MAIN - Página Home */
+
+
+
+/* ESTILIZANDO O MAIN - Página Login */
+
+
+/* background do login */
+#body_login{
+    background: url('../imagens/fundo-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Estilização do Topo do login  */
+.header_login{
+    /* background: var(--roxo); */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_login img{
+    margin-left: 1em;
+    width: 15vw;
+    height: 8vh;
+} 
+/* estilizando o main */
+.main_login{
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area_login{
+    width: 40vw;
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1em;
+}
+.main_login h1{
+    font-size: 2.5em;
+    margin-top: 0em;
+}
+.area_login form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 22vw;
+    height: 25vh;
+    align-items: center;
+}
+.area_login label{
+    font-weight: bolder;
+}
+.area_login form i{
+    padding: 1em;
+    /* border-bottom: solid black 0.01em; */
+}
+.area_login form input{
+    width:15vw; 
+    height: 6.4vh;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid black 0.01em;
+}
+.area_login a{
+    margin-left: 10em;
+    text-decoration: none;
+    color: #EF5BA1;
+}
+.botao_login{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em; 
+    height: 3em; 
+}
+.entrar_login{
+    border: solid #9A00B6 0.1em;
+    background-color: #fff;
+    padding: 0.5em;
+    font-family: 'Opens Sans', sans-serif;
+    border-radius: 0.5em;
+    color: #9A00B6;
+    width: 14vw;
+    margin-right: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cadastrar_login{
+    border: solid #EF5BA1 0.1em;
+    background-color: #EF5BA1;
+    padding: 0.5em;
+    font-family: 'Opens Sans', sans-serif;
+    border-radius: 0.5em;
+    width: 14vw;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* FINALIZANDO O MAIN - Página Login */
+
+
+
+
+
+/* ESTILIZANDO A PÁGINA - Painel de Controle */
+
+.painel_controle{
+    display: flex;
+}
+.perfil_adm{
+    width: 15vw;
+    height: 74.3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 3em;
+    margin-top: 4em;
+}
+.perfil_adm img{
+    height: 25vh;
+    width: 15vw;
+    border-radius: 50%;
+}
+.perfil_adm div{
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.perfil_adm i{
+    padding: 1em;
+}
+.perfil_adm h2{
+    padding: 1em;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.perfil_adm h3{
+    width: 15vw;
+    height: 2em;
+    font-size: 0.9em;
+    /* border: solid 0.1em #707070; */
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-weight: lighter;
+    box-shadow: 0 0 3px 2px #707070;
+}
+.perfil_adm a{
+    text-decoration: none;
+    margin: 0 auto;
+    color: #8F31BE;
+    border: solid 0.1em #8F31BE;
+    border-radius: 0.5em;
+    font-weight: bold;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+.atividades_adm{
+    margin-top: 4em;
+    margin-left: 5em;
+    justify-content: center;
+    width: 70vw;
+    height: 70vh;
+}
+.atividades_adm h1{
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-bottom: 0.5em;
+    color:  #8F31BE;
+}
+.atividades_adm hr{
+  background: #707070;
+  width: 70vw;
+}
+.acoes_adm{
+    border: solid 0.2em #8F31BE;
+    border-radius: 0.5em;
+    margin-top: 2em;
+    height: 55vh;
+}
+.atividades_adm i{
+    padding: 1em;
+    color: #8F31BE;
+}
+span{
+    float:right;
+}
+.fa-cogs:before{
+    font-size: 2em;
+}
+.acoes_adm section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    clear: both;
+}
+.acoes_adm div{
+    height: 15vh;
+    width: 20vw;
+    border: solid 0.05em #707070;
+    border-left: solid 2em #00B6FF;
+    border-radius: 1em;
+    margin-right: 10em;
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.acoes_adm a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+}
+
+
+/* FINALIZANDO A PÁGINA - Painel de Controle */
+
+
+
+
+
+/* ESTILIZANDO PÁGINA - Aprovação de Usuário */
+
+
+.main_aprovacao{
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+}
+.aprovacoes h1{
+    font-weight: lighter;
+    font-size: 2.5em;
+    padding: 0.5em;
+    color: #8F31BE;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+.aprovacoes hr{
+    background: #707070;
+    width: 85vw;
+    margin-bottom: 1em;
+}
+.lc{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 1em;
+}
+.lu{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 1em;
+}
+.aprovacao_usuario{
+    display: flex;
+    height: 5em;
+    width: 90vw;
+    border: solid 0.1em #707070;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5em;
+    border-radius: 1em;
+}
+
+.lista_compras{
+    height: 25vh;
+    width: 70vw;
+}
+.botao_aprovar{
+    border: solid 0.1em #29BF12;
+    color: #29BF12;
+    border-radius: 1em;
+    background-color: white;
+    font-weight: bold;
+    width: 8vw;
+    height: 5vh;
+    margin-right: 1em;
+}
+.botao_recusar{
+    border: solid 0.1em #CF0000;
+    color: #CF0000;
+    border-radius: 1em;
+    background-color: white;
+    font-weight: bold;
+    width: 8vw;
+    height: 5vh;
+}
+.aprovacao_botao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 29vh;
+  }
+
+
+  /* FINALIZANDO A PÁGINA - Aprovação de Usuário */
+
+  /* ESTILIZANDO A LISTA DE INTERESSES E DESCRIÇÃO DO PRODUTO - Lucas quem fez*/
+
+  
+.descricao{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.anuncio_descritivo{
+    display: flex;
+}
+
+.titulo_descricao, .titulo_interesses{
+    margin-top: 5vh;
+    font-size: 1.5em;
+    padding: 1.5em;
+}
+
+.titulo_descricao hr, .titulo_interesses hr{
+    margin-top: 2%;
+    background-color: var(--hr);
+}
+
+.fotos_secundarias, .foto_principal{
+    border: 2px solid var(--cor_bordas);
+    border-radius: var(--bordas);
+}
+
+.fotos_secundarias img{
+    width: 10vw;
+
+    }.fotos_secundarias{
+    padding: 1em;
+
+}
+
+.central{
+    margin: 1em 0em;
+}
+
+.foto_principal{
+    margin-left: 3em;
+
+    }.foto_principal img{
+        width: 22vw;
+        padding: 1em;
+
+    }.foto_exibicao{
+        text-align: center;
+
+    }.foto_principal hr{
+        border: 2px solid var(--cor_bordas);
+
+}
+
+.conteudo_descricao{
+    padding: 0.4em;
+
+    }.conteudo_descricao h3{
+        font-size: 2em;
+        /* margin-bottom: 1em; */
+
+    }.conteudo_descricao h4{
+        text-align: right;
+        font-size: 1.5em;
+        color: var(--roxo);
+        margin-top: -1.55em;
+
+    }.conteudo_descricao p{
+        font-size: 1.4em;
+        padding: 0.5em 0.3em;
+        width: 28vw;
+        line-height: 2.5em;
+}
+
+.secao_avaliacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_classificacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }.box_classificacao h3{
+        font-size: 1.3em;
+        text-transform: capitalize;
+        word-spacing: 1em;
+        margin-bottom: 1em;
+}
+
+
+.quadro_avaliacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 9.5vh;
+}
+
+.avaliacoes .box_avaliacao{
+    border: 1px solid var(--cor_bordas);
+    border-radius: var(--bordas);
+
+    display: flex;
+    justify-content: space-between;
+
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1em;
+    width: 16vw;
+}
+
+.avaliacoes .box_avaliacao p span{
+    color: orange;
+}
+
+.leve_descricao{
+    width: 22vw;
+    margin-left: 2em;
+}
+
+.btn_descricao button{
+    border: 2px solid var(--roxo);
+    padding: 1.5em;
+    background-color: transparent;
+    border-radius: var(--bordas);
+
+    color: var(--roxo);
+    font-size: 15px;
+    font-weight: bold;
+    
+    }.btn_descricao button i{
+        margin-right: 1.5em;
+
+}
+
+.usuario1{
+    background: url('../imagens/chris.jpg') center;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+
+    /* background: red; */
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.2vw;
+}.usuario2{
+    background: url('../imagens/robert.jpg') center;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 500px; */
+
+    /* background: red; */
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.2vw;
+}
+
+.foto_produto_lista{
+    width: 8vw;
+    height: 10vh;
+    border-radius: 0.7vw;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+
+    }.foto_produto_lista img{
+        width: 7vw;
+        /* padding: 0.6em 0em 0em 0em; */
+        margin: 0 auto;
+}
+
+.lista_interesses, .lista_interesses_aguardo{
+    /* width: 60vw;  */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+
+    
+}
+
+.lista_aprovados{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha_produto{/*Codigo editadoooooooo*/
+    line-height: 5em;
+    border: 2px solid var(--cor_bordas);
+    padding: 0.5em;
+
+    width: 75vw;
+    border-radius: var(--bordas);
+    margin-bottom: 1em;
+    list-style-type: none;
+}
+
+.links_listas a, .links_listas_aguardo a{
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 1em 0.5em 0em 0.5em;
+    color: var(--roxo);
+
+    }.links_listas, .links_listas_aguardo{
+        margin: 1.5em 0em;
+    
+    }.links_listas a:nth-child(odd), .links_listas_aguardo a:nth-child(even){/*codigo editadoooooo*/
+        border-bottom: 2px solid var(--roxo);
+        font-weight: bold;
+
+}
+
+.informacoes_produto{
+    display: flex;
+    align-items: center;
+}
+
+.dados_usuario{
+    display: flex;
+    align-items: center;
+}
+
+.box_comentarios{
+    border: 2px solid var(--cor_bordas);
+    border-radius: var(--bordas);
+
+    width: 45vw;
+    padding: 0.5em;
+    margin: 1.2em 0em;
+}
+
+.dados_usuario p{
+    margin: 1.5em 0.5em;
+}
+
+.box_comentarios p strong{
+    color: var(--rosa);
+    font-style: italic;
+}
+
+.titulo_comentarios{
+    margin-top: 5vh;
+    font-size: 1em;
+    padding: 3% 3% 0% 3%;
+
+    }.titulo_comentarios h2{
+        margin: 1em 0em;
+
+}
+
+.comentar form textarea{/*codigo editadooooo*/
+    border: none;
+    font-size: 1em;
+    
+    font-style: italic;
+    text-transform: capitalize;
+    /* border-bottom: 2px solid var(--cor_bordas); */
+    width: 42vw;
+    height: 8vh;
+
+    }.comentar form{
+        color: var(--cor_bordas);
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+}
+
+.text_produto{
+    display: flex;
+}.text_produto h3{
+    width: 11vw;
+    padding: 0.5em;
+}
+
+.comentar{/*Codigo editadooooooo*/
+    border: 2px solid var(--cor_bordas);
+    border-radius: var(--bordas); 
+
+    width: 45vw;
+    height: 11vh;
+    padding: 0.5em;
+    /* margin: 1.2em 0em; */
+    }.adicionar_comentario{
+        border: 2px solid var(--roxo);
+        border-radius: var(--bordas);
+        background-color: transparent;
+
+        padding: 0.8em;
+        color: var(--roxo);
+        margin: 0.5em 0em;
+    }
+
+.comentarios{
+    padding: 0em 3em;
+}
+
+
+/* FINALIZANDO PAGINA LISTA DE INTERESSE E DESCRIÇÃO DE PRODUTO */
+
+
+
+
+
+
+@media screen and (max-width: 769px){
+
+    /* Estilizando a página Home */
+    .home_main{
+        height: 245vh;
+    }
+
+    .home_anuncio{
+        width: 35vw;
+        height: 44vh;
+    }
+
+    .home_imagem-anuncio{
+        width: 35vw;
+    }
+
+    .home_anuncio img{
+        width: 25vw;
+        height: 12vh;
+        margin: 1.7em 1.2em;
+    }
+
+    .home_anuncio a{
+        margin-right: 6em;
+    }
+
+    .home_secao-filtro{
+        width: 59vw;
+    }
+
+    .home_botao-detalhe{
+        margin-left: 1em;
+    }
+
+    /* Finalizando a página Home */
+
+
+
+
+
+    /* Estilizando a página Login */
+
+    .area_login{
+        width: 60vw;
+    }
+    .area_login h1{
+        font-size: 2em;
+    }
+    .area_login form{
+       width: 40vw;
+    }
+    .area_login form input{
+        width: 25vw;
+        height: 8.5vh;
+    }
+    .area_login a{
+        font-size: 0.8em;
+    }
+
+    /* Finalizando a página Login */
+
+
+    /* Finalizando a página Aprovação de Usuário */
+
+    .aprovacao_usuario h2{
+        font-size: 1em;
+    }
+    .aprovacao_botao {
+        height: 29vh;
+    }
+    .main_aprovacao{
+        height: 98vh;
+    }
+
+    /* ESTILIZANDO LISTA DE INTERESSES E DESCRIÇÃO DE PRODUTO */
+
+    .titulo_descricao {
+        font-size: 1.2em;
+    }
+
+    .foto_principal {
+        margin-left: 1em;
+    }
+
+    .conteudo_descricao h3 {
+        font-size: 1.5em;
+    }
+
+    .conteudo_descricao p {
+        width: 33vw;
+        line-height: 1.5em;
+        font-size: 0.95em;
+    }
+
+    .conteudo_descricao h4 {
+        margin-top: 0em;
+    }
+
+    .avaliacoes .box_avaliacao {
+  
+        width: 19vw;
+    }
+
+    .leve_descricao {
+        width: 22vw;
+        margin-left: 0.5em;
+    }
+
+    .quadro_avaliacao {
+        height: 9.5vh;
+        font-size: 0.8em;
+    }
+
+    .box_classificacao h3 {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+
+    .btn_descricao button {
+        padding: 1em;
+    }
+
+    .comentarios {
+        padding: 0em 1.5em;
+    }
+
+    .box_comentarios {
+        width: 52vw;
+    }
+
+    .dados_usuario {
+        height: 6vh;
+    }
+
+    .comentar {
+        width: 35vw;
+        height: 15vh;
+    }
+
+    .comentar form input {
+        font-size: 0.95em;
+    }
+
+    .linha_produto {
+        width: 80vw;
+        line-height: 2em;
+    }
+
+    .informacoes_produto {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .foto_produto_lista {
+        width: 12vw;
+        height: 8vh;
+    }
+
+    .foto_produto_lista img {
+        width: 11vw;
+    }
+
+    .informacoes_produto .text_produto h3{
+        width: 30vw;
+        padding: 0.5em;
+    }
+
+    .comentar form textarea{
+        width: 30vw;
+    }
+}
+
+
+@media screen and (max-width: 376px ){
+     
+    
+    /* Estlizando a página Home */
+
+
+    .home_main{
+        height: 500vh;
+    }
+
+    .home_main section{
+        width: 70vw;
+    }
+
+    .home_anuncio{
+        width: 60vw;
+        height: 48vh;
+    }
+
+    .home_anuncio a{
+        margin-right: 4em;
+    }
+
+    .home_anuncio img{
+        width: 45vw;
+        height: 13vh;
+    }
+
+    .home_imagem-anuncio{
+        width: 60vw;
+    }
+
+    .home_secao-filtro{
+        width: 80vw;
+    }
+
+    .home_botao-detalhe{
+        margin-left: 1em;
+    }
+
+    /* Finalizando a página Home */
+
+
+
+
+    /* Estilizando a página Login */
+    .area_login{
+        width: 80vw;
+    }
+    .area_login h1{
+        font-size: 1.5em;
+    }
+    .area_login form{
+        width: 50vw;
+    }
+    .area_login label{
+        font-size: 0.8em;
+    }
+    .area_login i{
+        display: none;
+    }
+    .area_login form input{
+        width: 15em;
+    }
+    .area_login a{
+        font-size: 0.8em;
+    }
+    .botao{
+        width: 7em;
+    }
+
+    /* Finalizando a página Login */
+
+
+    /* Estilizando a página Aprovação de Usuário */
+
+    .aprovacoes{
+        display: flex;
+        flex-direction: column;
+    }
+    .aprovacoes h1{
+        font-size: 1.5em;
+    }
+    .aprovacoes hr{
+        width: 100vw;
+    }
+    .lc{
+        font-size: 1em; 
+    }
+    .lu{
+        font-size: 1em;   
+    }
+    .aprovacao_usuario h2{
+        font-size: 1em;
+    }
+    .aprovacao_usuario p{
+        display: none;
+    }
+    .aprovacao_usuario input{
+        width: 25vw;
+    }
+    .aprovacao_usuario{
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+    .main_aprovacao{
+        height: 98vh;
+    }
+
+
+    /* ESTILIZANDO PAGINA DE DESCRIÇÃO E LISTA DE INTERESSE */
+
+    .foto_principal img {
+        width: 50vw;
+        padding: 0.5em;
+    }
+
+    .fotos_secundarias {
+        padding: 0.3em;
+    }.fotos_secundarias img {
+        width: 18vw;
+    }
+
+    .conteudo_descricao h3 {
+        font-size: 1.15em;
+    }
+
+    .foto_principal {
+        margin-left: 0.5em;
+    }
+
+    .conteudo_descricao p {
+        width: 55vw;
+        line-height: 1.5em;
+        font-size: 0.95em;
+    }
+    
+    .conteudo_descricao h4 {
+        margin-top: 0em;
+        font-size: 16px;
+    }
+
+    .avaliacoes .box_avaliacao {
+        width: 38vw;
+    }
+
+    .leve_descricao {
+        width: 50vw;
+        margin-left: 0.5em;
+    }
+
+    .quadro_avaliacao {
+        height: 9.5vh;
+        font-size: 0.85em;
+    }
+
+    .box_classificacao h3 {
+        font-size: 1em;
+        margin: 1.2em 0em;
+    }
+
+    .titulo_descricao {
+        font-size: 0.9em;
+    }
+
+    .btn_descricao button {
+        padding: 1em;
+        margin: 1.2em 0em;
+    }
+
+    .box_comentarios {
+        width: 85vw;
+    }
+
+    .foto_usuario {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .comentar {
+        width: 70vw;
+        height: 15vh;
+    }
+
+    .links_listas a {
+        font-size: 1em;
+        text-decoration: none;
+        padding: 1em 0.2em 0em 0.1em;
+    }
+
+    .linha_produto {
+        width: 95vw;
+        line-height: 2em;
+    }
+
+    .text_produto {
+        display: flex;
+        flex-direction: column;
+        line-height: 1em;
+    }.text_produto p{
+        padding: 0.3em 0em;
+        padding-left: 0.5em;
+
+    }
+
+    .foto_produto_lista {
+        width: 17vw;
+        height: 8vh;
+    }
+
+    .foto_produto_lista img {
+        width: 16vw;
+        font-size: 0.95em;
+    }
+
+    .informacoes_produto {
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo_descricao, .titulo_interesses {
+        margin-top: 5vh;
+        font-size: 1.2em;
+        padding: 1.1em;
+    }
+
+    .informacoes_produto .text_produto h3 {
+        width: 45vw;
+        padding: 0.5em;
+    }
+
+    .comentar form textarea{
+        width: 60vw;
+    }
+}

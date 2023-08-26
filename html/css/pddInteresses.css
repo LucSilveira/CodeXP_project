@@ -1,0 +1,234 @@
+.interesse_main{
+    height: 110vh;
+}
+.titulo_descricao h1, .titulo_interesses h1{
+  color: var(--roxo);
+  font-weight: 500;
+  margin-left: 4em;
+  margin-top: 2.8em;
+  font-size: 1.8em;
+}
+.titulo_descricao hr, .titulo_interesses hr{
+  background: #707070;
+  width: 85vw;
+  height: 0.1vh;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+.links_listas, .links_listas_aguardo{
+  display: flex;
+}
+.links_listas h2, .links_listas_aguardo h2{
+  font-size: 1.3em;
+  color: var(--roxo);
+  text-decoration-line: underline;
+  padding: 1.3em;
+}
+
+.links_listas a, .links_listas_aguardo a{
+  font-size: 1.3em;
+  padding: 1em 0.5em 0em 0.5em;
+  color: var(--roxo);
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 1.3em;
+}
+.box_lista-interesse, .box_lista{
+  width: 70vw;
+  height: 70vh;
+  margin-left: 13.5em;;
+}
+.linha_produto{
+  list-style: none;
+  padding: 1em;
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 1em;
+  margin-top: 1em;
+  font-family:  'Opens Sans', sans-serif;
+}
+.linha_produto img{
+  height: 10vh;
+  width: 10vw;
+}
+
+@media screen and (max-width : 769px){
+
+    .linha_produto {
+        width: 80vw;
+        line-height: 2em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .linha_produto p{
+        font-size: 1em;
+    }
+
+    .informacoes_produto {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .foto_produto_lista {
+        width: 12vw;
+        height: 8vh;
+    }
+
+    .foto_produto_lista img {
+        width: 11vw;
+    }
+
+    .informacoes_produto .text_produto h3{
+        width: 30vw;
+        padding: 0.5em;
+    }
+
+    .comentar form textarea{
+        width: 30vw;
+    }
+    .box_lista-interesse, .box_lista {
+        margin-left: 5em;
+    }
+}
+
+@media screen and (max-width : 376px){
+
+    .foto_principal img {
+        width: 50vw;
+        padding: 0.5em;
+    }
+
+    .fotos_secundarias {
+        padding: 0.3em;
+    }.fotos_secundarias img {
+        width: 18vw;
+    }
+
+    .conteudo_descricao h3 {
+        font-size: 1.15em;
+    }
+
+    .foto_principal {
+        margin-left: 0.5em;
+    }
+
+    .conteudo_descricao p {
+        width: 55vw;
+        line-height: 1.5em;
+        font-size: 0.95em;
+    }
+    
+    .conteudo_descricao h4 {
+        margin-top: 0em;
+        font-size: 16px;
+    }
+
+    .avaliacoes .box_avaliacao {
+        width: 38vw;
+    }
+
+    .leve_descricao {
+        width: 50vw;
+        margin-left: 0.5em;
+    }
+
+    .quadro_avaliacao {
+        height: 9.5vh;
+        font-size: 0.85em;
+    }
+
+    .box_classificacao h3 {
+        font-size: 1em;
+        margin: 1.2em 0em;
+    }
+
+    .titulo_descricao {
+        font-size: 0.9em;
+    }
+
+    .btn_descricao button {
+        padding: 1em;
+        margin: 1.2em 0em;
+    }
+
+    .box_comentarios {
+        width: 85vw;
+    }
+
+    .foto_usuario {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .comentar {
+        width: 70vw;
+        height: 15vh;
+    }
+
+    .links_listas a {
+        font-size: 1.3em;
+        text-decoration: none;
+        padding: 1em 0.2em 0em 0.1em;
+    }
+
+    .linha_produto {
+        width: 90vw;
+        line-height: 2em;
+        flex-wrap: wrap;
+    }
+
+    .text_produto {
+        display: flex;
+        flex-direction: column;
+        line-height: 1em;
+    }.text_produto p{
+        padding: 0.3em 0em;
+        padding-left: 0.5em;
+
+    }
+
+    .foto_produto_lista {
+        width: 17vw;
+        height: 8vh;
+    }
+
+    .foto_produto_lista img {
+        width: 16vw;
+        font-size: 0.95em;
+    }
+
+    .informacoes_produto {
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo_descricao, .titulo_interesses {
+        margin-top: 5vh;
+        font-size: 1.2em;
+        padding: 1.1em;
+    }
+
+    .informacoes_produto .text_produto h3 {
+        width: 45vw;
+        padding: 0.5em;
+    }
+
+    .comentar form textarea{
+        width: 60vw;
+    }
+
+    .box_lista-interesse, .box_lista {
+        margin-left: 1em;
+    }
+    .titulo_interesses h1{
+        margin-left: 0.5em;
+    }
+    .interesse_main {
+        height: 170vh;
+    }
+
+    .linha_produto img{
+        width: 25vw;
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 auto;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .cabecalho{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 200px;
+            background-color: #5E239D;
+        }
+
+        .logo img{
+            width:500px;
+            height: 120px;
+        }
+
+        .conteudo{
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        .topo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("img/interesse.jpg");
+            color: #fff;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+            height: 300px;
+        }
+
+        .topo h2{
+            font-size: 50pt;
+        }
+        
+
+
+
+        
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="img/logogit.png" alt="">
+        </div>
+    </header>
+    <main class="conteudo">
+        <div class="topo">
+            <h2>Parabéns</h2>
+        </div>
+        <div>
+            <p>Conforme a analise do nosso sistema vimos que voce demonstrou interesse em um de nossos produtos</p>
+        </div>
+        <div style="display: flex">
+            <div><img src="img/interesse.jpg " width="300px" height="200px" alt=""></div>
+            <div><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime voluptatibus perspiciatis maiores? Magnam veritatis cupiditate maxime esse? Qui dolorem ratione quaerat veritatis unde maxime, vero quo porro nobis iste blanditiis.</p></div>
+        </div>
+        <div>
+            <p>E hoje ficamos felizes de informa-lo que sua compra foi aprovada com sucesso entre em contato com um de nossos gerentes</p>
+        </div>
+    </main>
+    <footer class="rodape">
+
+    </footer>
+    
+</body>
+</html>

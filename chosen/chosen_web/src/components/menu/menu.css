@@ -1,0 +1,19 @@
+.cabecalho_mn{
+    background-color: #000000;
+    padding: 0.8em;
+}
+
+.rowMenu_mn img{
+    width: 5vw;
+}
+
+.rowMenu_mn .linksMenu_mn a{
+    padding: 1em 1.2em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #00E021;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px 2px #ffffff;
+    text-transform: capitalize;
+}

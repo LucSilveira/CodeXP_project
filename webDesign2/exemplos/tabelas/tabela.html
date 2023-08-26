@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="tabela.css">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <caption>legenda tabela</caption>
+            <tr>
+                <th>tabela semantica</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Linha 1 - Brunola</td>
+                <td>LInha 1 - Granola</td>
+                <td>Linha 1 - Saio da gaiola</td>
+            </tr>
+            <tr>
+                <td>Linha 2 - Saio da gaiola</td>
+                <td>Linha 2 - o Granola</td>
+                <td>Linha 2 - do Brunola</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>rodape table</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+    <h2>Tabela com cabecalho</h2>
+    <table>
+        <td>
+        <th>Brunola granola</th>
+        </td>
+        <tr>
+            <td>Linha 1 - Brunola</td>
+            <td>LInha 1 - Granola</td>
+            <td>Linha 1 - Saio da gaiola</td>
+        </tr>
+        <tr>
+            <td>Linha 1 - Brunola</td>
+            <td>LInha 1 - Granola</td>
+            <td>Linha 1 - Saio da gaiola</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>Mesclando cabecalho</h2>
+    <table>
+        <tr>
+            <!-- colspan é usado para mesclar as colunas -->
+            <th colspan="3">
+                <h3>cabecalho</h3>
+            </th>
+        </tr>
+        <tr>
+            <td>Linha 1 - Brunola</td>
+            <td>LInha 1 - Granola</td>
+            <td>Linha 1 - Saio da gaiola</td>
+        </tr>
+        <tr>
+            <td>Linha 1 - Brunola</td>
+            <td>LInha 1 - Granola</td>
+            <td>Linha 1 - Saio da gaiola</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>mesclando colunas</h2>
+    <table>
+        <tr>
+            <!-- rowspan é usado para mesclar as linhas -->
+            <th rowspan="3">
+                <h3>cabecalho</h3>
+            </th>
+        </tr>
+        <tr>
+            <td>Linha 1 - Brunola</td>
+            <td>LInha 1 - Granola</td>
+            <td>Linha 1 - Saio da gaiola</td>
+        </tr>
+        <tr>
+            <td>Linha 1 - Brunola</td>
+            <td>LInha 1 - Granola</td>
+            <td>Linha 1 - Saio da gaiola</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+        <caption>Tabelas de Pet Shop</caption>
+        <colgroup>
+            <!-- <col class="col"> -->
+            <col>
+            <!-- <col class="col"> -->
+            <col>
+            <!-- <col class="col"> -->
+            <col>
+            <!-- <col class="col"> -->
+        </colgroup>
+        <thead>
+            <th>Nome do pet</th>
+            <th>Idade?????????</th>
+            <th>Espécie</th>
+            <th>Raça</th>
+            <th>Peso</th>
+            <th>Nome do dono</th>
+            <th>Telefone para contato</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lord</td>
+                <td>9</td>
+                <td>Mini-Coelho</td>
+                <td>Lion</td>
+                <td>1kg</td>
+                <td>Lucao</td>
+                <td>(11) 96255-3590</td>
+            </tr>
+            <tr>
+                <td>Pit</td>
+                <td>12</td>
+                <td>Cachorro</td>
+                <td>Pitbull</td>
+                <td>10kg</td>
+                <td>Lucao</td>
+                <td>(11) 96255-3590</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">
+                    Se acharem a pit, pf me avisem (tururu) - (11) 96255-3590
+                </td>
+            </tr>
+        </tfoot>       
+    </table>
+</body>
+
+</html>

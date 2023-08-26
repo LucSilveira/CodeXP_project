@@ -1,0 +1,501 @@
+
+
+.conteudo_cdu{
+    height: auto;
+}
+.h1_cdu{
+    color: var(--roxo);
+    font-weight: 500;
+    margin-left: 4em;
+    margin-top: 2.8em;
+}
+.linha_cadastrodeanuncio_cdu{
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+/* pai das caixas */
+#container_selecao_anuncio_cdu{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Começo da edição caixa 1 */
+.criar_anuncio_cdu{
+    width: 22vw;
+    margin-bottom: 1em;
+    border-right: 2px solid #000000;
+    margin-top: 2em;
+}
+.selecaodoanuncio_cdu1{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;              
+}
+.barraanuncio_cdu1{
+    width: 15vw;
+    height: 3.5vh;
+    padding-left: 1em;
+    border: none;
+    border-bottom: solid 1.5px #000;
+    font-size: 1em;
+}
+
+.barraanuncio_cdu1::placeholder{
+    color: var(--rosa);
+}
+.notebooksanuncio_cdu{
+    display: flex;
+    padding: 1em;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: space-around;
+}
+.notebooksanuncio_cdu .imagem_notebook{
+    width: 6vw;
+    height: 9vh;
+    border: 1px solid var(--roxo);
+    border-radius: 1em;
+}
+.notebooksanuncio_cdu p {
+    font-family: 'Opens Sans', sans-serif;
+}
+.notebooksanuncio_cdu img{
+    width: 100%;
+    padding: 0.5em;
+}
+.notebooksanuncio_cdu{
+  
+    padding: 1em 1em;
+}
+.criar_anuncio_cdu hr{
+    width: 18vw;
+    margin-left: 1em;
+}
+/* Começo da edição caixa 2 */
+.descricao_do_produto_cdu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.informacoes_do_produto_cdu{
+    display: flex;
+    /* margin-left: 2em;
+    margin-top: 4em; */
+}
+.amostra_do_produto_cdu{
+    border: solid 2px #531CB3;
+    width: 22vw;
+    height: 28vh;
+    text-align: center;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+.amostra_do_produto_cdu img{
+    width: 22vw;
+    height: 28vh;
+    padding: 1em;
+
+}
+.amostra_descricao_cdu{
+    margin-left: 1em;
+    width: 27vw;
+}
+.amostra_do_produto_cdu p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.amostra_descricao_cdu p span{
+    color: var(--roxo);
+}
+.amostra_descricao_cdu h2{
+    margin-top: 1em;
+    font-weight: normal;
+    text-align: start;
+}
+.amostra_descricao_cdu p{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0.6em;
+    font-size: 1.2em;
+    text-align: start;
+}
+.formulario_anuncio_cdu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55vw;
+}
+.barra_preco_expiracao_cdu{
+    width: 15vw;
+    height: 6vh;
+    padding: 1em;
+    border: solid 1px #707070;
+    border-radius: 0.5em;
+
+}
+.campos label{
+    font-family: 'Opens Sans', sans-serif;
+}
+legend{
+    font-family: 'Opens Sans', sans-serif;
+}
+.avaliacao_estrelas {
+    border: 1px solid #707070;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    background-color: white;
+    color: orange;
+    margin: 0em 0.2em;
+    width: 6vw;
+    text-align: center;
+}
+.tipos_avaliacao{
+    display: flex;
+}
+.campos label{
+    display: block;
+}
+
+.botao_adicionar_cdu {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+.botao_editar_cdu{
+    width: 14vw;
+    height: 8vh;
+    background-color: #ffff;
+    border: solid 2px var(--rosa);
+    border-radius: 0.5em;
+    color: var(--roxo);
+    font-size: 1.3em;
+}
+.botao_add_cdu{
+    width: 14vw;
+    height: 8vh;
+    background-color: #ffff;
+    border: solid 2px var(--roxo);
+    border-radius: 0.5em;
+    color: var(--roxo);
+    font-size: 1.3em;
+}
+.botao_editar_cdu a{
+    text-decoration: none;
+    color: var(--rosa);
+}
+.botao_editar_cdu i{
+    padding: 0.5em 0.3em;
+}
+.botao_add_cdu a{
+    text-decoration: none;
+    color: var(--roxo);
+}
+.avaliacao{
+    display: flex;
+    flex-direction: column;
+}
+/* Botão pag EDITAR */
+.botao_adicionar_cdu2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+.botao_editar_cdu2{
+    background-color: #ffff;
+    border: solid 2.5px var(--rosa);
+    border-radius: 1em;
+    color: var(--roxo);
+    font-size: 1.3em;
+    word-spacing: 0.4em;
+    padding: 0.8em 1em;
+}
+.botao_editar_cdu2 a{
+    text-decoration: none;
+    color: var(--rosa);
+}
+
+
+@media screen and (max-width: 769px){
+  
+    .informacoes_do_produto_cdu {
+        margin-top: 1em;
+    }
+    .amostra_descricao_cdu p {
+        margin: 0em;
+    }
+    .amostra_do_produto_cdu {
+        margin-bottom: 1em;
+        margin-right: 8em;
+    }
+    .criar_anuncio_cdu {
+        height: 107vh;
+    }
+    .notebooksanuncio_cdu img {
+        width: 13vw;
+        height: 11vh;
+    }
+    .notebooksanuncio_cdu .imagem_notebook {
+        width: 13vw;
+        height: 12vh;
+        margin-left: 3em;
+    }
+    .notebooksanuncio_cdu p {
+        font-size: 1em;
+        margin-left: 1em;
+    
+    }
+    .botao_adicionar_cdu {
+        margin-right: 6em;
+    }
+
+    .conteudo_cdu{
+        height: auto;
+    }
+
+    .h1_cdu{
+        font-weight: normal;
+        margin-top: 1.5em;
+        margin-left: 2.5em;
+        color: var(--roxo);
+    }
+    .linha_cadastrodeanuncio_cdu{
+        width: 80vw;
+        margin-left: 5em;
+        background-color: rgb(184, 184, 184);
+        height: 0.2vh;
+        margin-top: 1em;
+    }
+    /* Começo da edição caixa 1 */
+    .criar_anuncio_cdu{
+        width: 44vw;
+        height: 70vh;
+        margin-bottom: 1em;
+        border-right: 2px solid #000000;
+        margin-top: 2em;
+        margin-left: 1em;
+    }
+    .barraanuncio_cdu1{
+        width: 25vw;
+        height: 4vh;
+        border: solid 1px #000;
+        border-radius: 0.5em;         
+    }
+    .notebooksanuncio_cdu img{
+        width: 10vw;
+        height: 8vh;
+    }
+    .notebooksanuncio_cdu .imagem_notebook {
+        width: 10vw;
+        height: 9vh;
+    }
+    .criar_anuncio_cdu hr{
+        width: 25vw;
+        margin-left: 1em;
+    }
+    /* começo de edição caixa 2 */
+    .informacoes_do_produto_cdu{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 3.5em;
+    }
+    .amostra_descricao_cdu {
+        margin-left: 0em;
+        width: 60vw; 
+    }
+    .amostra_do_produto_cdu {
+        border: solid 2px #531CB3;
+        width: 48vw;
+        height: 30vh;
+        text-align: center;
+        border-radius: 1em;
+    }
+    .amostra_do_produto_cdu img {
+        width: 44vw;
+        height: 30vh;
+        padding: 1em;
+    }
+    .amostra_descricao_cdu h2{
+        margin-top: 1em;    
+        font-weight: normal;
+    }
+    .amostra_descricao_cdu p {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.2em;
+        margin-right: 1em;
+    }
+    /* Formulario */
+    .formulario_anuncio_cdu {
+        display: flex;
+        margin-top: 1em;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0.5em;
+        width: 70vw;
+        padding: 2em;
+    
+    }
+    .campos{
+        margin: 0em 1.5em 1.5em 0em;
+    }
+    .avaliacao_estrelas {
+        width: 11vw;
+    }
+    /* Botão */
+    .botao_adicionar_cdu2{
+        padding: 0.5em 1.2em;
+    }
+    .botao_adicionar_cdu2 a{
+        color: var(--rosa);
+        text-decoration: none; 
+    }
+    .botao_adicionar_cdu button {
+        padding: 0.5em 1.2em;
+    }
+    .botao_editar_cdu {
+        width: 20vw;
+    }
+    .botao_editar_cdu a{
+        color: var(--rosa);
+        padding-left: 0.5em;
+        text-decoration: none; 
+    }
+    .botao_editar_cdu i{
+        display: none;
+    }
+    .botao_add_cdu{
+        width: 20vw;
+    }
+    .botao_add_cdu i{
+        display: none;
+    }
+    .botao_add_cdu a{
+        color: var(--roxo);
+        padding-left: 0.5em;
+        text-decoration: none; 
+    }
+    .barra_preco_expiracao_cdu{
+        width: 25vw;
+        height: 5vh;
+        padding-left: 1em;
+        border: solid 1px #000;
+        border-radius: 1em;
+    }
+    /* Botão da pag de EDIÇÃO */
+    .botao_adicionar_cdu2{
+        padding: 0.5em 1.2em;
+    }
+    .botao_adicionar_cdu2 a{
+        color: var(--rosa);
+        text-decoration: none; 
+    }
+}
+
+@media screen and (max-width: 376px ){
+
+    #container_selecao_anuncio_cdu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .h1_cdu{
+        margin-left: 1em;
+    }
+    .linha_cadastrodeanuncio_cdu{
+        margin-left: 2em
+    }
+        /* Caixa 1 */
+    .notebooksanuncio_cdu .imagem_notebook {
+        width: 24vw;
+        height: 9vh;
+    }
+    .criar_anuncio_cdu {
+        margin: 1em 0em;
+        width: 73vw;
+        height: 70vh;
+    }
+    .barraanuncio_cdu1{
+        width: 45vw;
+        height: 4vh;
+    }
+    .notebooksanuncio_cdu img{
+         width: 20vw;
+    }
+    .notebooksanuncio_cdu p{
+        padding-right: 2em;
+    }
+    .criar_anuncio_cdu hr {
+        width: 63vw;
+    }
+    /* Caixa 2 */
+    .amostra_do_produto_cdu{
+        width: 70vw;
+        height: 25vh;
+        
+    }
+    .amostra_do_produto_cdu img {
+        width: 70vw;
+        height: 25vh;
+        padding-left: 0.5em;
+    }
+    .amostra_descricao_cdu h2{
+        margin-top: 1em;    
+        font-weight: normal;
+        text-align: center;
+        
+    }
+    .amostra_descricao_cdu p{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.33em;
+        margin-right: 1em;
+        text-align: center;
+    }
+    .selecaodoanuncio_cdu{
+        text-align: center;
+        padding: 0.2em;
+    }
+    .formulario_anuncio_cdu {
+        display: flex;
+        font-size: 1.2em;
+        flex-direction: column;
+        padding: 0;
+    }
+    .preco_expiracao_cdu{
+        margin-left: 2.5em;
+    }
+    .avaliacao legend{
+        margin-left: 1.7em;
+    }
+    .tipos_avaliacao{
+        margin-left: 1.2em;
+    }
+    .barra_preco_expiracao_cdu{
+        width: 60vw;
+    }
+    .campos{
+        width: 70vw;
+    }
+    .avaliacao_estrelas {
+        width: 27vw;
+    }
+    /* Botão */
+    .botao_adicionar_cdu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botao_adicionar_cdu button{
+        width: 60vw;
+        margin-top: 1em;
+    }
+    .botao_adicionar_cdu a{
+        padding: 0;
+    }
+    .botao_adicionar_cdu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5em;
+    }
+
+}

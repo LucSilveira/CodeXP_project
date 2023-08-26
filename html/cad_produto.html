@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/padrao.css">
+    <title>Home - TechCycle</title>
+</head>
+
+<body>
+
+    <!-- Topo da página -->
+
+    <header id="topo">
+            <a href="home.html"><img src="imagens/Logo.svg" alt="Logotipo"></a>
+
+        <nav>
+            <ul>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Final do Topo -->
+
+    <!-- Menu Principal -->
+
+    <input type="checkbox" id="chk">
+    <label for="chk" class="menu-icon">&#9776;</label>
+
+    <div class="bg">
+
+    </div>
+
+    <nav class="menu" id="principal">
+            <div class="foto-perfil">
+                <img src="imagens/FotoPerfil.jpg" alt="">
+            </div>
+            <ul class="menu-admin">
+                <li><a href="perfil_usuario.html">Meu Perfil <span><i class="far fa-user-circle"></i></span></a></li>
+                <li><a href="cadastrodeanuncio.html">Cadastrar Anúncio <span><i class="fas fa-plus"></i></span></a></li>
+                <li><a href="lista_interesses.html">Lista de Interesse <span><i
+                                class="fas fa-clipboard-list"></i></span></a></li>
+                <li><a href="aprovacao_interesse.html">Lista de Pedidos <span><i class="fas fa-user-plus"></i></span></a>
+                </li>
+                <li><a href="produtos_cadastrados.html">Produtos Cadastrados <span><i
+                                class="fas fa-clipboard-list"></i></span></a></li>
+                <li><a href="painel_controle.html">Painel do Administrador <span><i class="fas fa-user-cog"></i></span></a>
+                </li>
+            </ul>
+    
+            <ul>
+                <li><a href="" id="voltar"><i class="fas fa-arrow-left"></i></a></li>
+                <li><a href="index.html" class="botao-sair">Sair <span><i class="fas fa-sign-out-alt"></i></span></a></li>
+            </ul>
+        </nav>
+
+    <!-- Final do Menu Principal -->
+
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <section class="titulo_cad_produto">
+            <h1>Cadastro de Produtos</h1>
+            <hr>
+        </section>
+        <div class="container_cad_produto">
+            
+            <section class="cad_descricao_produto">
+                <section class="section3img_cad_produto">
+                    <img src="imagens/camera.svg" alt="icone de alterar imagem">
+                    <img src="imagens/camera.svg" alt="icone de alterar imagem">
+                    <img src="imagens/camera.svg" alt="icone de alterar imagem">
+                </section>
+                <section class="secao_imagem_cad_produto">
+                    <img src="imagens/camera.svg" alt="icone de alterar imagem">
+                </section>
+
+                <section class="descricao_cad_produto">
+                    <label for="descricao"><i class="fas fa-desktop"></i>Descrição do equipamento</label>
+
+                    <div class="descricao">
+                        <textarea name="descricao" cols="30" rows="10" placeholder="Descrição..."></textarea>
+                    </div>
+                </section>
+
+            </section>
+
+                <!-- <section class="descricao_produto">
+                    <label for="descricao"><i class="fas fa-desktop"></i>Descrição do equipamento</label>
+
+                    <div>
+                        <textarea name="descricao" cols="30" rows="10" placeholder="Descrição..."></textarea>
+                    </div>
+                </section> -->
+
+            <section class="form_cadastro">
+                <form action="#" class="formulario">
+
+                    <section class="container_form_cad_produto">
+
+                        <section class="row_cad_produto">
+                            <div>
+                                <label for="nome"><i class="fas fa-desktop"></i>Nome do equipamento</label>
+                                <input type="text" id="input_box" name="nome" placeholder="Nome...">
+                            </div>
+                            <div>
+                                <label for="sobrenome"><i class="far fa-keyboard"></i> Modelo do equipamento</label>
+                                <input type="text" id="input_box" name="nome" placeholder="Modelo...">
+                            </div>
+                        </section>
+
+                        <section class="row_cad_produto">
+                            <div>
+                                <label for="usuario"><i class="fas fa-industry"></i> Fabricante do equipamento</label>
+                                <input type="text" id="input_box" name="usuario" placeholder="Fabricante...">
+                            </div>
+                            <div>
+                                <label for="email"><i class="fas fa-gopuram"></i>Data do fim da vida útil</label>
+                                <input type="text" id="input_box" name="email" placeholder="Fim da vida útil...">
+                            </div>
+                        </section>
+
+                        <section class="row_cad_produto">
+                            <div>
+                                <label for="senha"><i class="far fa-calendar-alt"></i> Data de lançamento</label>
+                                <input type="text" id="input_box" name="senha" placeholder="Data de lançamento...">
+
+                            </div>
+                            <div>
+                                <label for="confirme"><i class="fas fa-qrcode"></i> Codigo de identificação</label>
+                                <input type="text" id="input_box" name="confirme" placeholder="Identificação...">
+                            </div>
+                        </section>
+
+                    </section>
+
+                    <div class="botao_cad_produto">
+                        <!-- <input type="submit" value="Solicitar cadastr"> -->
+                        <!-- <button type="#" class="bot_cad_editar"><i class="fas fa-plus-circle"></i> Editar produto</button> -->
+                        <button type="submit" class="bot_cad_cadastrar">
+                            <a href="produtos_cadastrados.html"><i class="fas fa-plus-circle"></i> Adicionar produto</a> 
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Final do Conteúdo Principal -->
+
+
+
+    <!-- Roadapé  -->
+
+    <footer>
+        <p> &copy; Todos os direitos reservados | FunCode 2019 </p>
+    </footer>
+
+    <!-- Final do Rodapé -->
+    <script src="https://kit.fontawesome.com/f95e11d82a.js"></script>
+</body>
+
+</html>

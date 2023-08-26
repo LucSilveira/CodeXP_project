@@ -1,0 +1,163 @@
+#body_login{
+    background: url('../imagens/fundo-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Estilização do Topo do login  */
+.header_login{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_login img{
+    margin-left: 1em;
+    width: 15vw;
+    height: 8vh;
+} 
+/* estilizando o main */
+.main_login{
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area_login{   
+    width: 40vw;
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1em;
+}
+.main_login h1{
+    font-size: 2.5em;
+    margin-top: 0em;
+}
+.area_login form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vw;
+    height: 25vh;
+    align-items: center;
+}
+.area_login label{
+    font-family: 'Opens Sans', sans-serif;
+    font-weight: bolder;
+}
+.area_login form i{
+    padding: 1em;
+    /* border-bottom: solid black 0.01em; */
+}
+.area_login form input{
+    width:15vw; 
+    height: 6.4vh;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid black 0.01em;
+}
+.area_login a{
+    text-decoration: none;
+    color: #EF5BA1;
+}
+.botao_login{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em; 
+    height: 3em; 
+}
+.entrar_login{
+    border: solid #9A00B6 0.1em;
+    background-color: #fff;
+    padding: 0.5em;
+    font-family: 'Opens Sans', sans-serif;
+    border-radius: 0.5em;
+    color: #9A00B6;
+    width: 14vw;
+    margin-right: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cadastrar_login{
+    border: solid #EF5BA1 0.1em;
+    background-color: #EF5BA1;
+    padding: 0.5em;
+    font-family: 'Opens Sans', sans-serif;
+    border-radius: 0.5em;
+    width: 14vw;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Estilo do botão alterar senha  */
+
+.p_senha{
+    font-family: 'Opens Sans', sans-serif;
+    margin-top: 1em;
+}
+
+.alterar_senha{
+    border: solid #EF5BA1 0.1em;
+    background-color: #EF5BA1;
+    padding: 0.5em;
+    font-family: 'Opens Sans', sans-serif;
+    border-radius: 0.5em;
+    width: 14vw;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 769px){
+
+    .area_login{
+        width: 60vw;
+    }
+    .area_login h1{
+        font-size: 2em;
+    }
+    .area_login form{
+       width: 40vw;
+    }
+    .area_login form input{
+        width: 25vw;
+        height: 8.5vh;
+    }
+    .area_login a{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 376px ){
+
+    .area_login{
+        width: 80vw;
+    }
+    .area_login h1{
+        font-size: 1.5em;
+    }
+    .area_login form{
+        width: 50vw;
+    }
+    .area_login label{
+        margin-top: 1em;
+        font-size: 0.8em;
+    }
+    .area_login i{
+        display: none;
+    }
+    .area_login form input{
+        width: 15em;
+    }
+    .area_login a{
+        margin-top: 1.5em;
+        font-size: 0.8em;
+    }
+    .botao{
+        width: 8em;
+    }
+
+}

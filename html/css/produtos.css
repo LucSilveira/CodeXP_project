@@ -1,0 +1,172 @@
+
+.produtoCadastrado_main{
+    height:165vh;
+}
+
+.produtoCadastrado_main h1{
+    color: var(--roxo);
+    font-weight: 500;
+    margin-left: 4em;
+    margin-top: 2.8em;   
+}
+
+.produtoCadastrado_main hr {
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.produtoCadastrado_main section{
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto; 
+}
+
+.produtoCadastrado_anuncio{
+    width: 15.2vw;
+    height: 53vh;
+    border: solid 1px #000;
+    margin-top: 4em;
+    border: 1px solid #707070;
+    border-radius: 1em;
+}
+
+.produtoCadastrado_imagem-anuncio{
+    width:15vw;
+    height: 18vh;
+    border-bottom: 1px solid #707070;
+}
+
+.produtoCadastrado_anuncio img{
+    width: 12vw;
+    height: 12vh;
+    margin: 0.8em 1.2em;
+}
+ .produtoCadastrado_titulo-preco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtoCadastrado_preco{
+    margin-right: 0.6em;
+    color: var(--roxo);
+}
+
+.produtoCadastrado_anuncio h3{
+    font-weight: 500;
+    color: var(--roxo);
+    font-size: 1em;
+    margin-left: 0.6em;
+    margin-top: 1em;
+}
+
+.produtoCadastrado_anuncio p{
+    margin-top: 0.8em;
+    margin-left: 0.6em;
+    text-align: left;
+    line-height: 1.2em;   
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.produtoCadastrado_botao-detalhe{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.produtoCadastrado_anuncio a{
+    margin-top: 0.5em;
+    text-decoration: none;
+    padding: 0.4em;
+    border: 1px solid var(--roxo);
+    background: var(--roxo);
+    color: #fff;
+    border-radius: 0.8em;
+    margin-right: 0.7em;
+    font-size: 0.9em;
+}
+
+
+.titulo_descricao h1{
+    margin-left: 0em;
+}
+.produtoCadastrado_main{
+    height: 545vh;
+}
+
+.produtoCadastrado_main section{
+    width: 70vw;
+}
+
+.produtoCadastrado_anuncio{
+    width: 60vw;
+    height: 50vh;
+}
+
+.produtoCadastrado_anuncio a{
+    margin-right: 4em;
+}
+
+.produtoCadastrado_anuncio img{
+    width: 45vw;
+    height: 10vh;
+}
+
+.produtoCadastrado_imagem-anuncio{
+    width: 60vw;
+}
+
+.produtoCadastrado_secao-filtro{
+    width: 80vw;
+}
+
+.produtoCadastrado_botao-detalhe{
+    margin-left: 1em;
+}
+
+@media screen and (max-width : 769px){
+
+    .produtoCadastrado_main{
+        height: 292vh;
+    }
+    
+    .produtoCadastrado_anuncio{
+        width: 35vw;
+        height: 50vh;
+    }
+    
+    .produtoCadastrado_imagem-anuncio{
+        width: 35vw;
+    }
+    
+    .produtoCadastrado_anuncio img{
+        width: 25vw;
+        height: 12vh;
+        margin: 1.7em 1.2em;
+    }
+    
+    .produtoCadastrado_anuncio a{
+        margin-right: 6em;
+    }
+    
+    .produtoCadastrado_secao-filtro{
+        width: 59vw;
+    }
+    .produtoCadastrado_descricao-produto{
+        font-size: 1.5em;;    
+    }
+    .produtoCadastrado_titulo-preco p{
+        margin-left: 4em;
+        font-size: 1em;
+    }
+    
+    .produtoCadastrado_botao-detalhe{
+        margin-left: 1em;
+    }
+}

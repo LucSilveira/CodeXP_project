@@ -1,0 +1,71 @@
+.bodyLogin_lgn{
+    background-image: url("./assets/img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rowLogin_lgn{
+    padding-top: 8em;
+    padding-bottom: 5.4em;
+}
+
+.secaoLogin_lgn{
+    width: 40vw;
+}
+
+.secaoLogin_lgn .tituloLogin_lgn{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: 2.2em;
+}
+
+.secaoLogin_lgn .tituloLogin_lgn hr{
+    border: 1px solid #00E021;
+}
+
+.formularioLogin_lgn .form-control{
+    border-bottom: 1.5px solid #ffffff !important;
+    margin: 0.85em 0em;
+    width: 25vw;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.formularioLogin_lgn label{
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.formularioLogin_lgn input:focus:not([readonly]){
+    border-color: #00E021 !important;
+    box-shadow: 0px 1px 0 0 #00E021 !important;
+}
+
+.formularioLogin_lgn input:focus:not([readonly]) label{
+    color: #00E021 !important;
+}
+
+.formularioLogin_lgn button{
+    width: 15vw;
+    padding: 0.3em;
+    font-size: 1.5em;
+    border-radius: 1em;
+    border: 1px solid #00E021;
+    background-color: transparent;
+    margin: 1em 0em;
+    transition: 0.5s;
+}
+
+.formularioLogin_lgn button a{
+    text-decoration: none;
+    color: #00E021;
+}
+
+.formularioLogin_lgn button:hover{
+    background-color: #00E021;
+}
+
+.formularioLogin_lgn button:hover a{
+    color: #ffffff;
+}

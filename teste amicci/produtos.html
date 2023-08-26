@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Teste Amicci - by Lucas.Silveira</title>
+		<link rel="stylesheet" href="public/css/style.css">
+	</head>
+	<body onload="notasAvaliacao()">
+		<!-- Seção principal -->
+		<section class="container">
+			<!-- Linha da seção -->
+			<section class="row">
+				<!-- Barra de navegação -->
+				<nav>
+					<ul>
+						<li><a href="ranking.html">Ranking</a></li>
+					</ul>
+				</nav>
+				<!-- Coluna com conteudo da seção -->
+				<section class="col">
+					<table id="produtos">
+						<thead>
+							<th>Produto</th>
+							<th>Sabor</th>
+							<th>Odor</th>
+							<th>Textura</th>
+							<th>Aparência</th>
+						</thead>
+
+						<tbody>
+							<tr id="primeiro_produto">
+								<td>Oreo</td>
+								<td class="notaSabor contaPrim_produto">8</td>
+								<td class="notaOdor contaPrim_produto">3</td>
+								<td class="notaTextura contaPrim_produto">7</td>
+								<td class="notaAparencia contaPrim_produto">2</td>
+							</tr>
+							<tr id="segundo_produto">
+								<td>Negresco</td>
+								<td class="notaSabor contaSeg_produto">8</td>
+								<td class="notaOdor contaSeg_produto">8</td>
+								<td class="notaTextura contaSeg_produto">6</td>
+								<td class="notaAparencia contaSeg_produto">7</td>
+							</tr>
+							<tr id="terceiro_produto">
+								<td>Trakinas</td>
+								<td class="notaSabor contaTerc_produto">7</td>
+								<td class="notaOdor contaTerc_produto">9</td>
+								<td class="notaTextura contaTerc_produto">7</td>
+								<td class="notaAparencia contaTerc_produto">9</td>
+							</tr>
+							<tr id="quarto_produto">
+								<td>Passatempo</td>
+								<td class="notaSabor contaQuar_produto">10</td>
+								<td class="notaOdor contaQuar_produto">5</td>
+								<td class="notaTextura contaQuar_produto">5</td>
+								<td class="notaAparencia contaQuar_produto">10</td>
+							</tr>
+						</tbody>
+						<tfoot id="amicci">
+							<td colspan="5">Teste solicitado pela Amicci</td>
+						</tfoot>
+					</table>
+				</section>
+				<!-- fim da coluna da seção -->
+			</section>	
+			<!-- fim da linha da seção -->
+		</section>
+		<!-- fim da seção -->
+
+		<!-- importação da lógica do desafio -->
+		<script type="text/javascript" src="public/js/logic.js"></script>
+	</body>
+</html>

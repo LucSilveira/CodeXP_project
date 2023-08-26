@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Painel de controle - TechCycle</title>
+</head>
+
+<body>
+
+    <!-- Topo da página -->
+
+    <header id="topo">
+        <a href="home.html"><img src="imagens/LogoTransparente.svg" alt="Logotipo"></a> 
+
+        <nav>
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#" id="menu">Menu </i> </i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Final do Topo -->
+
+    <!-- Menu Principal -->
+
+    <input type="checkbox" id="chk">
+    <label for="chk" class="menu-icon">&#9776;</label>
+
+    <div class="home_bg">
+
+    </div>
+
+    <nav class="menu" id="principal">
+        <div class="foto-perfil">
+            <img src="imagens/FotoPerfil.jpg" alt="">
+        </div>
+        <ul class="menu-admin">
+            <li><a href="">Meu Perfil <span><i class="far fa-user-circle"></i></span></a></li>
+            <li><a href="">Cadastrar Produto <span><i class="fas fa-plus"></i></span></a></li>
+            <li><a href="">Lista de Interesse <span><i class="fas fa-clipboard-list"></i></span></a></li>
+            <li><a href="aprovacao_usuario.html">Lista de Pedidos <span><i class="fas fa-user-plus"></i></span></a></li>
+            <li><a href="painel_controle.html">Painel do Administrador <span><i class="fas fa-user-cog"></i></span></a></li>
+        </ul>
+
+        <ul>
+            <li><a href="" id="voltar"><i class="fas fa-arrow-left"></i></a></li>
+            <li><a href="" class="botao-sair">Sair <span><i class="fas fa-sign-out-alt"></i></span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Final do Menu Principal -->
+
+
+    <!-- Conteúdo do painel de controle -->
+    <main class="painel_controle">
+        <section class="perfil_adm">
+            <img src="imagens/FotoPerfil.jpg" alt="foto do perfil do usuário">
+            <div>
+                <i class="fas fa-user"></i>
+                <h2>Nome:</h2>
+                <h3>Gandalf</h3>
+                <i class="fas fa-user-tag"></i>
+                <h2>Sobrenome:</h2>
+                <h3>O Cinzento</h3>
+                <i class="fas fa-envelope"></i>
+                <h2>E-mail:</h2>
+                <h3>gandalf@tolkien.com</h3>
+                <a href="#">Editar perfil</a>
+            </div>
+        </section> <!-- fim section perfil_adm -->
+        <section class="atividades_adm">
+            <h1>Painel de Controle</h1>
+            <hr>
+            <div class="acoes_adm">
+                <span>
+                    <i class="fas fa-cogs"></i>
+                </span>
+                <section>
+                    <div>
+                        <a href="#">Usuários cadastrados</a>
+                        <i class="fas fa-user"></i>
+                        <a href="#">Anúncios cadastrados</a>
+                        <i class="fas fa-archive"></i>
+                    </div>
+                    <div>
+                        <a href="#">Cadastrar usuário</a>
+                        <i class="fas fa-plus"></i>
+                        <a href="#">Cadastrar anúncio</a>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div>
+                        <a href="#">Solicitação de cadastro</a>
+                        <i class="fas fa-headset"></i>
+                        <a href="#">Solicitação de interesse</a>
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <div>
+                        <a href="#">Comentários</a>
+                        <i class="fas fa-comment-alt"></i>
+                        <a href="#">Anúncios a expirar</a>
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Final do Conteúdo do painel de controle  -->
+
+
+
+    <!-- Roadapé  -->
+
+    <footer>
+        <p> &copy; Todos os direitos reservados | FunCode 2019 </p>
+    </footer>
+
+    <!-- Final do Rodapé -->
+    <script src="https://kit.fontawesome.com/e6d6edbc99.js"></script>
+</body>
+
+</html>

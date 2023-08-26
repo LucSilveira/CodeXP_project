@@ -1,0 +1,230 @@
+
+.cadUsuario_main h1{
+    color: var(--roxo);
+    font-weight: 500;
+    margin-top: 2.8em;
+    width: 82vw;
+    margin-left: 4em;
+}
+.cadUsuario_main hr{
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.usuario_titulo_cad{
+    margin-top: 5vh;
+    font-size: 1.5em;
+    padding: 1.2em;
+}
+.usuario_titulo_cad hr{
+    margin-top: 1em;
+
+}
+.usuario_container_cad{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+.usuario_secao_imagem_cad{
+    margin-bottom: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.usuario_box_adicionar-foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.usuario_secao_imagem_cad img{
+    width: 30vw;
+    height: 30vh;
+}
+.usuario_upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    z-index: -1;
+  }
+  .usuario_btn {
+    border: none;
+    border-bottom: 2px solid var(--roxo);
+    color: var(--roxo);
+    background-color: #fff;
+    padding: 8px ;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 2em 0em;
+  }
+  .usuario_upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .usuario_upload-btn-wrapper i{
+      color: var(--roxo);
+  }
+.usuario_secao_imagem_cad p{
+    width: 14.5vw;
+    font-size: 1em;
+    color: red;
+}
+.usuario_container_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.usuario_file input{
+    border: none;
+}
+.usuario_container_form input{
+    width: 27em;
+    height: 4em;
+    margin-top: 1em;
+    padding: 1.5em;
+    border-radius: 1em;
+    border: solid 1px #ccc;
+}
+.usuario_row div{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+.usuario_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.usuario_row div label{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+}
+.botao_cad_usuario{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.botao_cad_usuario button{
+    width: 16em;
+    height: 4em;
+    border-radius: 1em;
+    border: solid var(--roxo);
+    background-color: transparent;
+    color: var(--roxo);
+    font-size: 1.05em;
+}
+.cad_usuario button i{
+    margin-right: 0.4em;
+}
+.usuario_secao_imagem_cad input{
+    width: 30em;
+}
+.usuario_row div label i{
+    margin-right: 1em;
+    margin-left: 1em;  
+}
+
+
+@media screen and (max-width: 769px){
+ 
+    .cadUsuario_main h1{
+        margin-left: 2em;
+    }
+    .usuario_container_cad{
+        flex-wrap: wrap;
+    }
+    .usuario_secao_imagem_cad{
+        margin-bottom: 2em;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    .botao_cad_usuario input{
+        width: 15em;
+        height: 4em;
+        border-radius: 1em;
+        border: solid var(--roxo);
+        background-color: transparent;
+        color: var(--roxo);
+        font-size: 1em;
+    }
+    .usuario_row div{
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0.5em;
+    }
+    .usuario_secao_imagem_cad p{
+        width: 29vw;
+        font-size: 1em;
+        color: red;
+    }
+    .usuario_secao_imagem_cad img {
+        width: 30vw;
+        height: 30vw;
+        padding-right: 1.5em;
+    }
+    .usuario_titulo_cad h1 {
+        color: var(--roxo);
+        font-weight: 500;
+        margin-top: 2.8em;
+        width: 82vw;
+    }    
+}
+
+@media screen and (max-width: 376px ){
+
+    .cadUsuario_main h1{
+        margin-left: 1.2em;
+    }
+    .usuario_container_cad{
+        flex-wrap: wrap;
+    }
+    .usuario_secao_imagem_cad{
+        width: 30vw;
+        margin-bottom: 2em;
+        width: 30vw;
+        margin-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botao_cad_usuario button{
+        border-radius: 1em;
+        border: 1px solid var(--roxo);
+        background-color: transparent;
+        color: var(--roxo);
+        font-size: 1em;
+    }
+    .usuario_row div{
+        display: flex;
+        flex-direction: column;
+        padding: 1em 0;
+    }
+    .usuario_secao_imagem_cad p{
+        width: 68vw;
+        font-size: 1em;
+        color: red;
+    }
+    .usuario_secao_imagem_cad img {
+        width: 60vw;
+        height: 60vw;
+    }
+    .usuario_titulo_cad h1 {
+        font-size: 1.05em;
+        margin-left: 0em;
+    }
+}

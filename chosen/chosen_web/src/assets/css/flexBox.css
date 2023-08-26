@@ -1,0 +1,22 @@
+/* Definindo o display: flex do componente de menu */
+.rowMenu_mn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/***************************************************/
+
+
+/* Definindo o display: flex da página de login */
+.rowLogin_lgn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formularioLogin_lgn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/************************************************/

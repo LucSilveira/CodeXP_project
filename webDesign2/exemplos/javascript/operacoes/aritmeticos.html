@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div></div>
+    <script>
+        var valor1 = prompt("Quantidades de xícaras vendidas");
+        var valor2 = prompt("Capacidade em ML da xícara");
+        var valor3 = 12;
+
+        document.write("Calculando quantos ML de café foram vendidos!" + "<br>");
+        document.write("Quantidades de xicaras" + " = " + valor1 + "<br>");
+        document.write("Capacidade por xícara" + " = " + valor2 + "<br>");
+        document.write("Quantidade em ML das 50 xícaras" + " = " + valor1 * valor2 + "<br>" + "<br>")
+
+        document.write("Convertendo ML em L" + "<br>");
+        document.write("Quntidade em ML " + valor1 * valor2 + "<br>")
+        document.write("Quantidade em L " + (valor1 * valor2) / 1000 + "<br>" + "<br>");
+
+        document.write("Quantidade final:" + "<br>");
+        document.write("Resultado " + (valor3 - (valor1 * valor2) / 1000));
+
+        ////////////////////////////////////////////////////////////////////////////////////////////
+
+        // Operadores aritmeticos
+
+        // var valor1 = prompt("Digite o primeiro valor");
+        // var valor2 = prompt("Digite o segundo valor");
+        
+        // var valor3 = "10";
+        // var resultado = valor1 + valor2;
+
+        //SOMA
+        document.write(valor1 + "+" + valor2 + "=" + resultado + "<br>");
+
+        //CONCATENAÇÃO
+        document.write(valor1 + "CONC" + valor2 + "=" + valor1 + valor3 + "<br>");
+
+        //SUBTRAÇÃO
+        document.write(valor1 + "-" + valor2 + "=" + (valor1 - valor2) + "<br>");
+
+        //MULTIPLICAÇÃO
+        document.write(valor1 + "*" + valor2 + "=" + valor1 * valor2 + "<br>");
+
+        //DIVISÃO
+        document.write(valor1 + "/" + valor2 + "=" + valor1 / valor2 + "<br>");
+
+        //MÓDULO
+        document.write(valor1 + "%" + valor2 + "=" + valor2 % valor1 + "<br>");
+
+        //INCREMENTO
+        document.write("valor1++" + valor1++ + "<br>");
+
+        //DECREMENTO
+        document.write("valor1--" +  valor2-- + "<br>");
+    </script>
+</body>
+</html>

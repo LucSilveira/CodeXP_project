@@ -1,0 +1,182 @@
+/* ESTILIZANDO O MAIN - Página Home */
+/* FINALIZANDO O MAIN - Página Home */
+
+
+
+/* ESTILIZANDO O MAIN - Página Login */
+/* FINALIZANDO O MAIN - Página Login */
+
+
+
+
+
+/* ESTILIZANDO A PÁGINA - Painel de Controle */
+/* FINALIZANDO A PÁGINA - Painel de Controle */
+
+
+
+
+
+/* ESTILIZANDO PÁGINA - Aprovação de Usuário */
+/* FINALIZANDO A PÁGINA - Aprovação de Usuário */
+
+
+  /* ESTILIZANDO A LISTA DE INTERESSES*/
+/* FINALIZANDO PAGINA LISTA DE INTERESSE*/
+
+
+
+
+/* ESTILIZANDO A PAGINA PERFIL DE USUÁRIO */
+/* FINALIZANDO A PAGINA PERFIL DE USUÁRIO */
+
+
+
+
+
+
+
+
+/* ESTILIZANDO A PAGINA SOBRE NÓS */
+/* FINALIZANDO A PAGINA SOBRE NÓS */
+
+
+/* ESTILIZANDO A PAGINA Cadastro de anuncio*/
+/* FINALIZANDO A PAGINA Cadastro de anuncio */
+
+
+
+/* Estilizando A PAGINA Cadastro de usuario */
+/* FINALIZANDO A PAGINA Cadastro de usuario */
+
+
+
+/* ESTILIZANDO A PAGINA Produtos Cadastrados*/
+/* FINALIZANDO A PAGINA Produtos Cadastrados */
+
+
+
+/* Etilizado A PAGINA detalhe do produto */
+/* FINALIZANDO A PAGINA detalhe do produto */
+
+
+
+/* Etilizado A PAGINA detalhe do produto */
+
+.anuncio_descritivo {
+    margin: 0;
+}
+
+/* FINALIZANDO A PAGINA detalhe do produto */
+
+
+
+/* ESTILIZANDO A PAGINA cadastro de produto */
+/* FINALIZANDO A PAGINA cadastro de produto */
+
+
+
+@media screen and (max-width: 769px){
+
+    /* Estilizando a página Home TABLET */
+    /* Finalizando a página Home */
+
+
+
+
+    /* Estilizando a página Login TABLET */
+    /* Finalizando a página Login */
+
+
+
+  
+    /* ESTILIZANDO LISTA DE INTERESSES E DESCRIÇÃO DE PRODUTO TABLET */
+
+
+
+    /* ESTILIZANDO A PAGINA CADASTRAR PRODUTO TABLET*/
+    
+
+
+/* Estilizando a pagina sobre nós TABLET */
+
+    
+
+/* ESTILIZANDO A PAGINA Cadastro de anuncio TABLET*/
+/* FINALIZANDO A PAGINA Cadastro de anuncio */
+
+
+
+/* ESTILIZANDO A PAGINA Cadastro de usuario TABLET */
+/* FINALIZANDO A PAGINA Cadastro de usuario */
+
+
+
+
+/* Estilizando A PAGINA Produtos Cadastrados */
+/* FINALIZANDO A PAGINA Produtos Cadastrados */
+
+
+
+
+/* Estilizando A PAGINA cadastro de anuncio TABLET */
+
+                        
+/* FINALIZANDO A PAGINA cadastro de anuncio */
+
+/* EStilizando A PAGINA aprovações */
+
+}
+@media screen and (max-width: 376px )
+{
+     
+    /* Estlizando a página Home CELULAR */
+    /* Finalizando a página Home */
+
+
+
+
+    /* Estilizando a página Login CELULAR*/
+    /* Finalizando a página Login */
+
+
+
+    /* ESTILIZANDO PAGINA LISTA DE INTERESSE CELULAR */
+
+    
+
+    /* ESTILIZANDO A PAGINA PERFIL DE USUÁRIO CELULAR*/
+    /* FINALIZANDO A PAGINA PERFIL DE USUÁRIO */
+
+
+    /* ESTILIZANDO A PAGINA CADASTRAR PRODUTO CELULAR*/
+
+
+
+    /* Estilizando a página sobre nós CELULAR*/
+
+    
+
+    /* ESTILIZANDO A PAGINA Cadastro de anuncio CELULAR */
+    /* FINALIZANDO A PAGINA Cadastro de anuncio */
+
+
+
+
+    /* FINALIZANDO A PAGINA Cadastro de usuario CELULAR*/
+    /* FINALIZANDO A PAGINA Cadastro de usuario */
+
+
+
+
+    /* Estilizando A PAGINA Produtos Cadastrados */
+    /* FINALIZANDO A PAGINA Produtos Cadastrados */
+
+
+
+    /* Estilizando A PAGINA detalhe do produto */
+    
+    
+  
+    /* FINALIZANDO A PAGINA detalhe do produto */
+}

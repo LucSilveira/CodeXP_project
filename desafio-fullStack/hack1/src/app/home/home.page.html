@@ -1,0 +1,52 @@
+ <ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+    <ion-menu side="start" menuId="first">
+      <button></button>
+        <ion-header>
+          <ion-toolbar color="primary">
+            <ion-title>HOME</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content>
+          <ion-list>
+            <ion-item>Card</ion-item>          
+          </ion-list>
+        </ion-content>
+      </ion-menu> 
+      <ion-router-outlet main></ion-router-outlet>
+  <div class="ion-padding">~
+ 
+  <ion-app>
+    
+      <ion-content fullscreen>
+        <ion-card *ngFor="let dado of items">
+       <!-- <img src={{dado.imagem}} />  -->
+          <ion-card-header>
+            <ion-card-subtitle>{{dado.nome}}</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+              {{dado.descricao}}
+          </ion-card-content>
+          <ion-card-content>
+              {{dado.nome}}
+          </ion-card-content>
+          <ion-card-content>
+             R$: {{dado.valor}}{{dado.preco}}
+         </ion-card-content> 
+          <ion-button color="success" (click)="click(dado)" >Adicionar</ion-button>
+          <ion-button color="danger" from="/home" to="/cart">Carrinho</ion-button>
+        </ion-card>
+      
+      </ion-content>
+    </ion-app>
+   
+</div>
+</ion-content>

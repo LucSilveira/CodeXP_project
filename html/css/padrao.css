@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer p, h1, h2, h3, h4, h5, h6, a{
+    font-family: 'Opens Sans', sans-serif;
+}
+
+
+:root{
+    --roxo: #7000A8;
+    --azulescuro: #531CB3;
+    --azulclaro: #00B6FF;
+    --rosa: #F61067;
+    --verde: #29BF12;
+    --cinza: #707070;
+
+
+    --hr: rgba(119, 119, 119, 0.3);
+    --bordas: 1em;
+    --cor_bordas: #707070;
+}
+
+
+
+
+
+
+/* ESTILIZAÇÃO DO TOPO  */
+#topo{
+    background: var(--roxo);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#topo a{
+    margin-right: 1em;
+}
+
+#topo img{
+    margin-left: 1em;
+    width: 15vw;
+    height: 8vh;
+}
+
+#topo nav{
+    width: 70vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#topo ul{
+    display: flex;
+    padding: 0 1.3em;
+    list-style-type: none;
+}
+
+#topo ul li{
+    margin-left: 4em;
+}
+
+#topo a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#topo a:hover{
+    color: var(--azulclaro);
+}
+
+/* FINAL DO TOPO */
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILIZANDO O MENU */
+
+.menu-icon{
+    position: absolute;
+    right: 6.5vw;
+    top: 1.7vh;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.menu-icon:hover{
+    color: var(--azulclaro);
+}
+
+#chk{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.menu{
+    height: 100vh;
+    position: fixed;
+    background-color: var(--roxo);
+    top: 0;
+    overflow: hidden;
+    transition: all .2s;
+    z-index: 1;
+}
+
+#principal{
+    width: 345px;
+    right: -345px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 4px solid #ef5ba1;
+}
+
+.foto-perfil{
+    margin-bottom: 8em;
+}
+
+
+.foto-perfil img{
+    border: 1px solid #fff;
+    position: absolute;
+    top: 2em;
+    left: 3.6vw;
+    width: 15vw;
+    height: 28vh;
+    border-radius: 50%;
+}
+
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul a{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.menu-admin span{
+    float: right;
+    margin-right: 1.2em;
+}
+
+.menu-admin li a{
+    display: block;
+    padding: 0.8em;
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.menu-admin li a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.8s;
+}
+
+#voltar{
+    color: #fff;
+    border: none;
+    position: absolute;
+    top: 0.6em;
+    left: 0.6em;
+}
+
+.botao-sair{
+    padding: 0.8em;
+    border-bottom: 2px solid #ef5ba1;
+    border-radius: 0.4em;
+    color: #ef5ba1;
+    position: absolute;
+    bottom: 1.6em;
+    right: 2.6em;
+    text-decoration: none;
+}
+
+.botao-sair span{
+    margin-left: 0.6em;
+}
+
+.botao-sair:hover{
+    color: #000;
+    border-bottom: 2px solid #000;
+    transition: 1.2s;
+}
+
+
+#chk:checked ~ #principal{
+    right: 0;
+    top: 0;
+    transform: translateX(0px);
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(112, 0, 168, 0.3);
+    display: none;
+}
+
+#chk:checked ~ .bg{
+    display: block;
+}
+
+/* FINAL DO MENU */
+
+
+
+
+/* ESTILIZANDO O RODAPÉ */
+
+footer{
+    background-color: var(--roxo);
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: #fff;
+}
+
+/* FINAL DO RODAPÉ */
+
+
+
+
+/* ESTILIZANDO PARA TABLET */
+
+
+@media screen and (max-width: 769px){
+
+    .foto-perfil img{
+        width: 27vw;
+        height: 28vh;
+        left: 8.3vw;
+    }
+}
+
+/* FINAL DO TABLET */
+
+
+/* ESTILIZANDO PARA CELULAR */
+@media screen and (max-width: 376px ){
+        
+    #menu{
+        display: none;
+    }
+    
+    #topo nav{
+        padding: 0 2.3em;
+    }
+
+    .menu-icon{
+        top: 0.7vh;
+    }
+
+
+    .foto-perfil img {
+        top: 2em;
+        left: 20vw;
+        width: 50vw;
+        height: 32vh;
+        border-radius: 50%;
+    }
+
+    .menu-admin li a{
+        padding: 1em;
+    }
+}
+
+

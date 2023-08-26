@@ -1,0 +1,188 @@
+.home_main{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dataExpiracao_home{
+    width: 15vw;
+    margin-top: 1em;
+    color: #ff0000;
+}
+.home_main h1{
+    color: var(--roxo);
+    font-weight: 500;
+    margin-top: 2.8em; 
+    width: 82vw;  
+}
+
+.home_main hr {
+    background: #707070;
+    width: 85vw;
+    height: 0.1vh;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.home_secao-filtro{
+    width: 65vw;
+    margin: 0 auto;
+    margin-bottom: 4em;
+
+}
+.home_secao-filtro h4{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home_filtros{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.home_filtros input, .home_filtros label{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home_filtros input{
+    margin-left: 1em;
+}
+
+
+.home_linhaCard{
+    display: flex;
+    justify-content: space-around;
+    width: 85vw;
+}
+
+.home_card{
+    width: 18vw;
+    height: 55vh;
+    border: solid 1px #000;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 4em;
+}
+
+.home_linha{
+    display: flex;
+    justify-content: space-around;
+}
+
+.home_img{
+    width:18vw;
+    height: 25vh;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: center;
+}
+
+.home_img img{
+    width:17vw;
+    height: 23vh;
+}
+
+.home_texto{
+    font-family: 'Opens Sans', sans-serif;
+    width: 14vw;
+    margin-left: 1.8em;
+    text-align: justify;   
+}
+.home_btn{
+    text-transform: uppercase;
+    border: 1px solid var(--roxo);
+    background: var(--roxo);
+    border-radius: 0.8em;
+    padding: 0.5em;
+}
+.home_btn a{
+    color: white;
+    text-decoration: none;
+}
+.home_coracao i{
+    font-size: 2em;
+}
+.home_preco{
+    color:  var(--roxo);
+}
+
+@media screen and (max-width: 769px){
+
+    .home_secao-filtro{
+        width: 80vw;
+    }
+    .categoria{
+        width: 10vw;
+    }
+    .categoriaDiferente{
+        width: 15vw;
+    }
+
+    .home_linhaCard{
+        flex-wrap: wrap;
+    }
+    .home_card{
+        width: 35vw;
+        margin-bottom: 3em;
+    }
+    .home_img{
+        width: 35vw;
+    }
+    .home_img img{
+        width: 30vw;
+    }
+    .home_texto{
+        width:25vw;
+        margin-right:1em; 
+    }
+    .home_texto p{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 376px ){
+
+    .home_secao-filtro{
+        width: 21em;
+    }
+    
+    .categoriaDiferente{
+        margin-right: 1.5em;
+    }
+
+    .categoriaDiferente div{
+        display: flex;
+    }
+
+    .categoria {
+        width: 18vw;
+    }
+
+    .home_main h1{
+        width: 80vw;
+        margin-left: 0.7em;
+    }
+    
+    .home_linhaCard{
+        flex-wrap: wrap;
+    }
+
+    .home_card{
+        width: 75vw;
+    }
+
+    .home_img{
+        width: 75vw;
+    }
+    
+    .home_img img{
+        width: 70vw;
+    }
+
+}

@@ -1,0 +1,365 @@
+.anuncio_descritivo {
+    display: flex;
+    margin-left: 4em;
+}
+.foto_principal {
+    margin-left: 3em;
+}
+.fotos_secundarias {
+    padding: 1em;
+}
+.fotos_secundarias, .foto_principal {
+    border: solid 1px #000;
+    border-radius: 1em;
+}
+.foto_principal img {
+    width: 22vw;
+    padding: 1em;
+}
+.fotos_secundarias img {
+    width: 10vw;
+}
+.box_classificacao h3 {
+    font-size: 1.3em;
+    text-transform: capitalize;
+    word-spacing: 1em;
+    margin-bottom: 1em;
+}
+.box_classificacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo_descricao h3 {
+    font-size: 2em;
+}
+.conteudo_descricao p {
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 1.15em;
+    padding: 0.5em 0.3em;
+    width: 27vw;
+    line-height: 2em;
+}
+.conteudo_descricao h4 {
+    text-align: right;
+    font-size: 1.5em;
+    color: var(--roxo);
+}
+.foto_exibicao {
+    text-align: center;
+}
+.descricao {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+.avaliacoes .box_avaliacao {
+    border: 1px solid var(--cor_bordas);
+    border-radius: var(--bordas);
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1em;
+    width: 16vw;
+}
+.leve_descricao {
+    width: 18vw;
+    margin-left: 2em;
+    font-family: 'Opens Sans', sans-serif;
+    margin-right: 4em;
+}
+.secao_avaliacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_descricao button {
+    border: 2px solid var(--roxo);
+    padding: 1.5em;
+    background-color: transparent;
+    border-radius: var(--bordas);
+    cursor: pointer;
+    color: var(--roxo);
+    font-size: 15px;
+    font-weight: bold;
+}
+.quadro_avaliacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9.5vh;
+}
+.central {
+    margin: 1em 0em;
+}
+.box_avaliacao span{
+    color:#FFC84C;
+}
+.titulo_comentarios h2 {
+    margin: 1em 0em;
+}
+.box_comentarios {
+    border: solid 1px #000;
+    border-radius: 1em;
+    width: 45vw;
+    padding: 0.5em;
+    margin: 1.2em 0em;
+}
+.comentar {
+    border: solid 1px #000;
+    border-radius: 1em;
+    width: 45vw;
+    height: 15vh;
+    padding: 0.5em;
+}
+.usuario1 {
+    background: url(../imagens/chris.jpg) center;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.2vw;
+}
+.usuario2 {
+    background: url(../imagens/robert.jpg) center;
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 1.2vw;
+}
+.comentar form textarea {
+    border: none;
+    font-size: 1em;
+    font-style: italic;
+    text-transform: capitalize;
+    width: 42vw;
+    height: 11vh;
+}
+.adicionar_comentario {
+    border: 2px solid var(--roxo);
+    border-radius: var(--bordas);
+    background-color: transparent;
+    padding: 0.8em;
+    color: var(--roxo);
+    margin: 0.5em 0em;
+}
+.comentarios {
+    padding: 0em 7em;
+}
+.titulo_comentarios {
+    margin-top: 5vh;
+    font-size: 1em;
+    padding: 3% 7% 0% 8%;
+}
+.dados_usuario {
+    display: flex;
+    align-items: center;
+}
+.dados_usuario p {
+    margin: 1.5em 0.5em;
+    font-family: 'Opens Sans', sans-serif;
+}
+.box_comentarios p{
+    font-family: 'Opens Sans', sans-serif;
+}
+.conteudo_descricao {
+    padding: 0.4em;
+}
+
+@media screen and (max-width : 769px){
+
+    .titulo_descricao {
+        font-size: 1.2em;
+    }
+
+    .foto_principal {
+        margin-left: 1em;
+    }
+
+    .conteudo_descricao h3 {
+        font-size: 1.5em;
+    }
+
+    .conteudo_descricao p {
+        width: 33vw;
+        line-height: 1.5em;
+        font-size: 0.95em;
+    }
+
+    .conteudo_descricao h4 {
+        margin-top: 0em;
+    }
+
+    .avaliacoes .box_avaliacao {
+  
+        width: 19vw;
+    }
+
+    .leve_descricao {
+        width: 22vw;
+        margin-left: 0.5em;
+    }
+
+    .quadro_avaliacao {
+        height: 9.5vh;
+        font-size: 0.8em;
+    }
+
+    .box_classificacao h3 {
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+    }
+
+    .btn_descricao button {
+        padding: 1em;
+    }
+
+    .comentarios {
+        padding: 0em 1.5em;
+    }
+
+    .box_comentarios {
+        width: 52vw;
+    }
+
+    .dados_usuario {
+        height: 6vh;
+    }
+
+    .comentar {
+        width: 35vw;
+        height: 15vh;
+    }
+
+    .comentar form input {
+        font-size: 0.95em;
+    }
+}
+
+@media screen and (max-width : 376px){
+
+    #container_selecao_anuncio_cdu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .h1_cdu{
+        margin-left: 1em;
+    }
+    .linha_cadastrodeanuncio_cdu{
+        margin-left: 2em
+    }
+        /* Caixa 1 */
+    .notebooksanuncio_cdu .imagem_notebook {
+        width: 24vw;
+        height: 9vh;
+    }
+    .informacoes_do_produto_cdu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0em;
+    }   
+    .criar_anuncio_cdu {
+        margin: 1em 0em;
+        width: 73vw;
+        height: 70vh;
+    }
+    .barraanuncio_cdu1{
+        width: 45vw;
+        height: 4vh;
+    }
+    .notebooksanuncio_cdu img{
+         width: 20vw;
+    }
+    .notebooksanuncio_cdu p{
+        padding-right: 2em;
+    }
+    .criar_anuncio_cdu hr {
+        width: 63vw;
+    }
+    /* Caixa 2 */
+    .amostra_do_produto_cdu{
+        width: 70vw;
+        height: 25vh;
+        margin-left: 8em;        
+    }
+    .amostra_do_produto_cdu img {
+        width: 70vw;
+        height: 25vh;
+        padding-left: 0.5em;
+    }
+    .amostra_descricao_cdu h2{
+        margin-top: 1em;    
+        font-weight: normal;
+        text-align: center;
+        
+    }
+    .amostra_descricao_cdu{
+        width: 87vw;
+    }
+    .amostra_descricao_cdu p{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.33em;
+        margin-right: 5em;
+        text-align: center;
+        
+    }
+    .selecaodoanuncio_cdu{
+        margin-left: 4em;
+    }
+    .formulario_anuncio_cdu {
+        display: flex;
+        font-size: 1.2em;
+        flex-direction: column;
+        padding: 0;
+    }
+    .preco_expiracao_cdu{
+        margin-left: 2.5em;
+    }
+    .avaliacao legend{
+        margin-left: 1.7em;
+    }
+    .tipos_avaliacao{
+        margin-left: 1.2em;
+    }
+    .barra_preco_expiracao_cdu{
+        width: 60vw;
+    }
+    .campos{
+        width: 70vw;
+    }
+    .avaliacao_estrelas {
+        width: 27vw;
+    }
+    /* Botão */
+    .botao_adicionar_cdu{
+        margin-left: 6em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botao_adicionar_cdu button{
+        width: 60vw;
+        margin-top: 1em;
+    }
+    .botao_adicionar_cdu a{
+        padding: 0;
+    }
+    .botao_adicionar_cdu2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.5em;
+    }
+    .avaliacao{
+        margin-left: 4em;
+
+    }
+}

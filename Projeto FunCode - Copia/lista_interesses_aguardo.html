@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista Interesses - TechCycle</title>
+    <link rel="stylesheet" href="css/padrao.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Topo da página -->
+    <header id="topo">
+        <a href="home.html"><img src="imagens/LogoTransparente.svg" alt="Logotipo"></a> 
+        <nav>
+            <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#" id="menu">Menu </i> </i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Final do Topo -->
+
+    <!-- Menu Principal -->
+
+    <input type="checkbox" id="chk">
+    <label for="chk" class="menu-icon">&#9776;</label>
+    <div class="home_bg">
+    </div>
+
+    <nav class="menu" id="principal">
+        <div class="foto-perfil">
+            <img src="imagens/FotoPerfil.jpg" alt="">
+        </div>
+        <ul class="menu-admin">
+            <li><a href="">Meu Perfil <span><i class="far fa-user-circle"></i></span></a></li>
+            <li><a href="">Cadastrar Produto <span><i class="fas fa-plus"></i></span></a></li>
+            <li><a href="lista_interesses.html">Lista de Interesse <span><i class="fas fa-clipboard-list"></i></span></a></li>
+            <li><a href="aprovacao_usuario.html">Lista de Pedidos <span><i class="fas fa-user-plus"></i></span></a></li>
+            <li><a href="painel_controle.html">Painel do Administrador <span><i class="fas fa-user-cog"></i></span></a></li>
+        </ul>
+
+        <ul>
+            <li><a href="" id="voltar"><i class="fas fa-arrow-left"></i></a></li>
+            <li><a href="" class="botao-sair">Sair <span><i class="fas fa-sign-out-alt"></i></span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Final do Menu Principal -->
+
+    <main>
+        <!-- Comeco da secao principal do anuncio -->
+        <section class="interesses">
+            <!-- Titulo principal da pagina -->
+            <section class="titulo_interesses">
+                <h1>Lista de interesses</h1>
+                <hr>
+            </section>
+            <!-- fim do titulo principal da pagina -->
+
+            <section class="lista_interesses_aguardo">
+                <section class="box_lista">
+                    <div class="links_listas_aguardo">
+                        <a href="lista_interesses.html">Interesses aprovados</a>
+                        <a href="#">Interesses sem resposta</a>
+                    </div>
+                    <ul class="lista_aprovados">
+                        <li class="linha_produto">
+                            <div class="informacoes_produto">
+                                <section class="foto_produto_lista">
+                                    <img src="imagens/macp1.png" alt="">
+                                </section>
+                                <div class="text_produto">
+                                    <h3>Macbook</h3>
+                                    <p>Tela de 13,3 polegadas, Memória integrada LPDDR3 de 8 Gb com 2133 MHz</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="linha_produto">
+                            <div class="informacoes_produto">
+                                <div class="foto_produto_lista">
+                                    <img src="imagens/macp2.png" alt="">
+                                </div>
+                                <div class="text_produto">
+                                    <h3>Macbook Pro</h3>
+                                    <p>Tela de 13,3 polegadas, Memória integrada LPDDR3 de 8 Gb</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="linha_produto">
+                            <div class="informacoes_produto">
+                                <div class="foto_produto_lista">
+                                    <img src="imagens/macp3.png" alt="">
+                                </div>
+                                <div class="text_produto">
+                                    <h3>Dell Inspiron</h3>
+                                    <p>Tela de 13,3 polegadas, Memória integrada LPDDR3 de 8 Gb com 2133 MHz</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="linha_produto">
+                            <div class="informacoes_produto">
+                                <div class="foto_produto_lista">
+                                    <img src="imagens/macp1.png" alt="">
+                                </div>
+                                <div class="text_produto">
+                                    <h3>Macbook Pro</h3>
+                                    <p>Tela de 13,3 polegadas, Memória integrada LPDDR3 de 8 Gb</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; Todos os direitos reservados | FunCode 2019  </p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/f95e11d82a.js"></script>
+</body>
+</html>

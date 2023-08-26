@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0ex;
+}
+
+/* body{
+    background-image: url("Stiles.jpg");
+} */
+
+div{
+    width: 100%;
+    height: 150px;
+}
+
+.linear{
+    background-image: linear-gradient(to left, orange, red);
+    background-color: black;
+}
+
+.horizontal{
+    background-image: linear-gradient(to right bottom, blue, red);
+}
+
+.emgraus{
+    background-image: linear-gradient(160deg, rgb(247, 0, 255), blue);
+}
+
+.opaco{
+    background-image: linear-gradient(160deg, rgba(43, 255, 0, 0.5), rgb(255, 230, 0));
+}
+
+.oval{
+    background-image: radial-gradient(circle, rgba(255, 0, 234, 0.5), rgb(250, 0, 0));
+}
